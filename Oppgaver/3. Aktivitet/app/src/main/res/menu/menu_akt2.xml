@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/hoved"
+        android:title="Hovedaktivitet"/>
+    <item
+        android:id="@+id/aktivitet3"
+        android:title="Aktivitet3"/>
+</menu>

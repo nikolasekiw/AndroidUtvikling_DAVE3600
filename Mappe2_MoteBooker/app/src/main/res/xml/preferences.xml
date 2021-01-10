@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="Varsler">
+
+        <SwitchPreference
+            android:key="sms"
+            android:title="@string/smsVarsel"
+            android:summaryOff="@string/av"
+            android:summaryOn="@string/på"/>
+
+         <EditTextPreference
+            android:key="klokkeslett"
+            android:title="@string/klokkeslett"
+            android:defaultValue="@string/klokkeslettTolv"
+             android:inputType="datetime"
+             android:summary="@string/settKlokkeslett"
+            android:text="@string/klokkeslettTolv"/>
+
+        <EditTextPreference
+            android:key="smsMelding"
+            android:title="@string/egendefinert"
+            android:summary="@string/lagEgendefinert"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

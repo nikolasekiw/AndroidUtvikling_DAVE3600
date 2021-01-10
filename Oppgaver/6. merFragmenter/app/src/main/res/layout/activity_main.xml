@@ -1,0 +1,22 @@
+<?xmlversion ="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <fragment
+        android:id="@+id/listefragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        class="com.example.merfragmenter.ListeFragment"
+        tools:layout="@layout/liste_layout" />
+</LinearLayout>
+
+    <!-- Denne er i stående modus. Det som er her er et fragment også må jeg gi fragmentet en
+    id også må jeg si ifra i hvilken klasse koden for å håndtere fragmentet ligger. Her er det
+    com.example.merfragmenter.ListeFragment. Sier også ifra hvor layouten til fragmentet ligger
+    og den ligger i layout/liste_layout og det er den første xml filen vi gikk gjennom.
+    Vi sier vi har fragment og gir det et navn. Denne aktiviteten vil aldri kunne vise mer enn
+    et fragment fordi vi har bare en fragment her i xml og da kan jeg ikk elegge til mer i
+    koden senere-->

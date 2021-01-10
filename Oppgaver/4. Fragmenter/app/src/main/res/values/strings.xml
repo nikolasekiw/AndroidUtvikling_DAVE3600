@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Fragmenter</string>
+    <string name="ok">Avslutt</string>
+    <string name="ikkeok">Avbryt</string>
+</resources>

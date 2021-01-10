@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.s333975s331153mappe3">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="com.example.s333975s331153mappe3.MapsActivity"
+            android:label="@string/title_activity_maps">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.s333975s331153mappe3.HusAdministrerer"
+            android:parentActivityName="com.example.s333975s331153mappe3.MapsActivity"/>
+        <activity android:name="com.example.s333975s331153mappe3.RomAdministrerer"
+            android:parentActivityName="com.example.s333975s331153mappe3.HusOversikt"/>
+        <activity android:name="com.example.s333975s331153mappe3.ReservasjonAdministrerer"
+            android:parentActivityName="com.example.s333975s331153mappe3.HusOversikt"/>
+        <activity android:name="com.example.s333975s331153mappe3.HusOversikt"
+            android:parentActivityName="com.example.s333975s331153mappe3.MapsActivity"/>
+        <activity android:name="com.example.s333975s331153mappe3.ReservasjonListe"
+            android:parentActivityName="com.example.s333975s331153mappe3.MapsActivity"/>
+        <activity android:name="com.example.s333975s331153mappe3.EndreHus"
+            android:parentActivityName="com.example.s333975s331153mappe3.MapsActivity"/>
+        <activity android:name="com.example.s333975s331153mappe3.EndreRom"
+            android:parentActivityName="com.example.s333975s331153mappe3.MapsActivity"/>
+    </application>
+</manifest>

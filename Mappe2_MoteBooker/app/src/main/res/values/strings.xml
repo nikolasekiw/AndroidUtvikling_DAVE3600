@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">MøteBooker</string>
+    <string name="moteRegistrering">Registrer møte</string>
+    <string name="kontaktRegistrering">Registrer kontakt</string>
+    <string name="navn">Navn</string>
+    <string name="telefon">Telefon</string>
+    <string name="tidspunkt">Tidspunkt</string>
+    <string name="sted">Sted</string>
+    <string name="type">Type</string>
+    <string name="registrer">Registrer</string>
+    <string name="mote">Møte</string>
+    <string name="kontakter">Kontakter</string>
+    <string name="innstillinger">Innstillinger</string>
+    <string name="seMoteDeltagelse">Se møtedeltagelse</string>
+    <string name="moteInformasjon">Møteinformasjon</string>
+    <string name="kontaktInformasjon">Kontaktinformasjon</string>
+    <string name="endre">Endre</string>
+    <string name="slett">Slett</string>
+    <string name="endreKontakt">Endre kontakt</string>
+    <string name="endreMote">Endre møte</string>
+    <string name="lagre">Lagre</string>
+    <string name="ja">Ja</string>
+    <string name="nei">Nei</string>
+    <string name="slettKontakt">Er du sikker på at du vil slette kontakten?</string>
+    <string name="allemoter">Alle møter</string>
+    <string name="alleKontakter">Alle kontakter</string>
+    <string name="slettEnKontakt">Slett kontakt</string>
+    <string name="slettMote">Slett møte</string>
+    <string name="velgDato">Velg dato</string>
+    <string name="velgTid">Velg tid</string>
+    <string name="tid">Tid</string>
+    <string name="dato">Dato</string>
+    <string name="varslerAv">Varsler av</string>
+    <string name="varslerPa">Varsler på</string>
+    <string name="settPaVarsel">Sett på varsel</string>
+    <string name="på">På</string>
+    <string name="av">Av</string>
+    <string name="tidForVarsel">Tid for varsel</string>
+    <string name="deltakere">Deltakere:</string>
+    <string name="smsVarsel">Sms-varsler til deltakere</string>
+    <string name="klokkeslett">Klokkeslett</string>
+    <string name="settKlokkeslett">Sett klokkeslett på varsel</string>
+    <string name="egendefinert">Egendefinert SMS-melding</string>
+    <string name="lagEgendefinert">Lag egendefinert melding</string>
+    <string name="klokkeslettTolv">12:00</string>
+
+</resources>

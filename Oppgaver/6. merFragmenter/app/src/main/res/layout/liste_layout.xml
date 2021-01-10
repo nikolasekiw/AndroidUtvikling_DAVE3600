@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ListView
+        android:id="@+id/liste"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+    <!-- I liggende modus viser vi to fragmenter, i stående viser vi ett fragment.
+    Det er samme fragmenter selv om man er i liggende eller stående. Lager ikke egne
+    fragmenter for disse to. Skjermen blir delt opp i ulike...
+
+    Fragment har masse metoder og livsløp. Vi bruker vanligvis onCreate og onCreateView
+    og der vil den lese hvordna det skal se ut og velger i en layput fil. Kan hende vi koder
+    noe i onPause hvis vi skal ta vare på en tilstand. Vi trenger mange filer.
+
+    Trenger layput fil til listefragmentet og visScriptFragmentet og main til stående og liggende modus
+
+    Hvert fragment har også en egen java-klasse. En hjava som håndterer liste fragmentet og en som håndterer
+    script?
+
+    Bruker komponent som heter listview og den skal ta all plass (match parent, wrap content)
+
+    For å vise script-innholder: visFil_layout.xml -->

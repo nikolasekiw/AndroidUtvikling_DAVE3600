@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">serviceBroadcast</string>
+    <string name="stoppPeriodiskService">Stopp periodisk service</string>
+    <string name="startService">Start service</string>
+</resources>

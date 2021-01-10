@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    tools:context=".Aktivitet_MoteReg"
+    android:background="@color/bakgrunn">
+
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="675dp"
+        android:background="@color/toolbar" />
+
+    <ImageView
+        android:id="@+id/lagre"
+        app:srcCompat="@drawable/ic_baseline_save_alt_24"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="350dp"
+        android:layout_marginRight="10dp"
+        android:onClick="regMote"
+        />
+
+
+    <EditText
+        android:id="@+id/txtNavnMote"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="100dp"
+        android:ems="10"
+        android:hint="@string/navn"
+        android:textColor="#000000"
+        android:inputType="textPersonName"
+        app:backgroundTint="@color/toolbar"
+        android:textCursorDrawable="@color/knapp"
+        android:textColorHint="@color/toolbar" />
+
+    <ImageView
+        android:id="@+id/navn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginLeft="18dp"
+        app:srcCompat="@drawable/ic_baseline_edit_24"/>
+
+
+    <EditText
+        android:id="@+id/txtSted"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="100dp"
+        android:ems="10"
+        android:hint="@string/sted"
+        android:textColor="#000000"
+        android:inputType="textPersonName"
+        android:textCursorDrawable="@color/knapp"
+        app:backgroundTint="@color/toolbar"
+        android:textColorHint="@color/toolbar" />
+
+    <ImageView
+        android:id="@+id/sted"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="158dp"
+        android:layout_marginLeft="18dp"
+        app:srcCompat="@drawable/ic_baseline_location_on_24" />
+
+
+    <EditText
+        android:id="@+id/dato"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="50dp"
+        android:hint="@string/dato"
+        android:textColor="#000000"
+        app:backgroundTint="@color/toolbar"
+        android:textCursorDrawable="@color/knapp"
+        android:textColorHint="@color/toolbar"/>
+
+    <ImageView
+        android:id="@+id/imageDato"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginLeft="18dp"
+        app:srcCompat="@drawable/ic_baseline_date_range_24" />
+
+    <Button
+        android:id="@+id/btn_dato"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="197dp"
+        android:layout_marginLeft="255dp"
+        android:background="@color/toolbar"
+        android:text="@string/velgDato" />
+
+    <EditText
+        android:id="@+id/tid"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:textColor="#000000"
+        android:hint="@string/tid"
+        android:textCursorDrawable="@color/knapp"
+        app:backgroundTint="@color/toolbar"
+        android:textColorHint="@color/toolbar"/>
+
+    <ImageView
+        android:id="@+id/imageTid"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="257dp"
+        android:layout_marginLeft="18dp"
+        app:srcCompat="@drawable/ic_baseline_access_time_24" />
+
+    <Button
+        android:id="@+id/btn_tid"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="247dp"
+        android:layout_marginLeft="255dp"
+        android:background="@color/toolbar"
+        android:text="@string/velgTid" />
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bakgrunn"
+    android:orientation="vertical"
+    tools:context="com.example.henteutdatamappe2.MainActivity">
+
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/toolbar" />
+
+    <TextView
+        android:id="@+id/txtkontaktID"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="60dp"
+        android:text="Skriv inn kontaktID:"
+        android:textColor="@color/toolbar" />
+
+    <EditText
+        android:id="@+id/kontaktID"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:inputType="textPersonName"
+        android:textColor="@color/toolbar"
+        android:textColorHint="@color/toolbar" />
+
+    <Button
+        android:id="@+id/visEn"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="150dp"
+        android:background="@color/toolbar"
+        android:onClick="visEn"
+        android:text="Vis en kontakt"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/visalle"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="200dp"
+        android:background="@color/toolbar"
+        android:onClick="visalle"
+        android:text="Vis alle kontakter"
+        android:textColor="#FFFFFF" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/visKontakterLV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="250dp">
+
+        </ListView>
+    </FrameLayout>
+
+</RelativeLayout>

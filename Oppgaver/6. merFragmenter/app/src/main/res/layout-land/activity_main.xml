@@ -1,0 +1,33 @@
+<?xmlversion ="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal">
+    <fragment
+        android:id="@+id/liste"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        class="com.example.merfragmenter.ListeFragment"
+        tools:layout="@layout/liste_layout">
+    </fragment>
+    <fragment
+        android:id="@+id/scriptfragment"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        class="com.example.merfragmenter.VisScriptFragment"
+        tools:layout="@layout/visfil_layout">
+    </fragment>
+</LinearLayout>
+
+<!-- Fragmenter trenger ikke å regist. Fragmenter eksisterer i container-->
+<!-- Så har vi liggende modus. Da må jeg lage land. Her har vi to fragmenter fordi vi
+skal ligge vde siden av hverandre i liggende modus. Det første fragmentet som skal vises kaller
+jeg liste, lager javaklasse for denne ogsp og kobler til layout til dette fragmentet.
+Så viser et fragment til, det kalles sciptfragment. layout til dette scriptet ligger i layout/visfillayout
+som er den andre xml filen vi snakket om. Må også koble til javaklasse for dette fragmentet-->
+

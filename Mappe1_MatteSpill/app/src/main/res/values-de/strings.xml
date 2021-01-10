@@ -1,0 +1,61 @@
+<resources>
+    <!-- STRINGS FOR HOVEDAKTIVITET -->
+    <string name="app_name">Math-Spiele</string>
+    <string name="matteSpill">Math-Spiele</string>
+    <string name="startSpill">Spiele starten</string>
+    <string name="statistikk">Statistiken</string>
+    <string name="preferanser">Vorlieben</string>
+
+    <string name="byttSprak">Wähle deine Sprache</string>
+
+    <!-- STRINGS FOR STATISTIKK -->
+    <string name="stat_vunnet">Spiel gewonnen : </string>
+    <string name="stat_tapt">Spiele verloren : </string>
+    <string name="stat_vunnet_svar"></string>
+    <string name="stat_tapt_svar"></string>
+    <string name="stat_slettBtn">Statistiken löschen</string>
+    <string name="slettStat">Möchten Sie die Statistiken wirklich löschen?</string>
+
+    <!-- STRINGS FOR STARTSPILL -->
+    <string name="ja">Ja</string>
+    <string name="nei">Nein</string>
+    <string name="spillFerdig">Das Spiel ist vorbei!</string>
+    <string name="nyttSpill">Das Spiel ist vorbei. Willst du ein neues Spiel?</string>
+    <string name="slettFremgang">Der Fortschritt des Spiels wird weg sein. Sind Sie sicher, dass Sie aufhören wollen?</string>
+    <string name="riktig">Richtig!</string>
+    <string name="feil">Error!</string>
+    <string name="antallOppgaver">Anzahl der Aufgaben</string>
+    <string name="oppgaverIgjen">wieder Aufgaben</string>
+    <string name="antallRiktigeOppgaver">Anzahl der richtigen Aufgaben</string>
+    <string name="regnestykket"></string>
+    <string name="btn1">1</string>
+    <string name="btn2">2</string>
+    <string name="btn3">3</string>
+    <string name="btn4">4</string>
+    <string name="btn5">5</string>
+    <string name="btn6">6</string>
+    <string name="btn7">7</string>
+    <string name="btn8">8</string>
+    <string name="btn9">9</string>
+    <string name="btn0">0</string>
+    <string name="ok">Ok</string>
+    <string name="textAntallOppgaver">Aufgaben ausgeführt:</string>
+    <string name="brukerSvar"></string>
+
+    <!-- STRINGS FOR PREFERANSER -->
+    <string name="fem">5</string>
+    <string name="ti">10</string>
+    <string name="tjuefem">25</string>
+    <string name="norsk">Norwegische</string>
+    <string name="tysk">Deutsche</string>
+    <string name="velgSprak">Wähle deine Sprache</string>
+    <string name="sprak">Sprache</string>
+    <string name="antallStykker">Anzahl der Stücke</string>
+    <string name="velgAntall">Nummer auswählen</string>
+    <string name="no">no</string>
+    <string name="de">de</string>
+    <string name="Velg">Wählen</string>
+
+
+    <string name="ikkeok">Ikke ok</string>
+</resources>

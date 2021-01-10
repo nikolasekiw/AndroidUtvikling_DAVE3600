@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?> <resources>
+    <string name="hello">Hello World, GradeksempelActivity!</string>
+    <string name="app_name">Gradeksempel</string>
+    <string name="overskrift">Skriv inn temperatur:</string>
+    <string name="grad">Til grader</string>
+    <string name="fahrenheit">Til Fahrenheit</string>
+    <string name="action_settings">Settings</string>
+</resources>

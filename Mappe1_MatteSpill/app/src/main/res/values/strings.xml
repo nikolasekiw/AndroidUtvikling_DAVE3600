@@ -1,0 +1,63 @@
+<resources>
+    <!-- STRINGS FOR HOVEDAKTIVITET -->
+    <string name="app_name">Mattespill</string>
+    <string name="matteSpill">Mattespill</string>
+    <string name="startSpill">Start spill</string>
+    <string name="statistikk">Statistikk</string>
+    <string name="preferanser">Preferanser</string>
+
+    <string name="byttSprak">Velg språk</string>
+
+
+    <!-- STRINGS FOR STATISTIKK -->
+    <string name="stat_vunnet">Spill vunnet : </string>
+    <string name="stat_tapt">Spill tapt : </string>
+    <string name="stat_vunnet_svar"></string>
+    <string name="stat_tapt_svar"></string>
+    <string name="stat_slettBtn">Slett statistikk</string>
+    <string name="slettStat">Er du sikker på at du vil slette statistikken?</string>
+
+    <!-- STRINGS FOR STARTSPILL -->
+    <string name="ja">Ja</string>
+    <string name="nei">Nei</string>
+    <string name="spillFerdig">Spillet er ferdig!</string>
+    <string name="nyttSpill">Spillet er ferdig. Ønsker du et nytt spill?</string>
+    <string name="slettFremgang">"Fremgangen i spillet vil bli borte. Er du sikker på at du vil avslutte?</string>
+    <string name="riktig">Riktig!</string>
+    <string name="feil">Feil!</string>
+    <string name="antallOppgaver">Antall oppgaver</string>
+    <string name="oppgaverIgjen">Oppgaver igjen</string>
+    <string name="antallRiktigeOppgaver">Antall riktige oppgaver</string>
+    <string name="regnestykket"></string>
+    <string name="btn1">1</string>
+    <string name="btn2">2</string>
+    <string name="btn3">3</string>
+    <string name="btn4">4</string>
+    <string name="btn5">5</string>
+    <string name="btn6">6</string>
+    <string name="btn7">7</string>
+    <string name="btn8">8</string>
+    <string name="btn9">9</string>
+    <string name="btn0">0</string>
+    <string name="ok">Ok</string>
+    <string name="textAntallOppgaver">Oppgaver utført:</string>
+    <string name="brukerSvar"></string>
+
+    <!-- STRINGS FOR PREFERANSER -->
+    <string name="fem">5</string>
+    <string name="ti">10</string>
+    <string name="tjuefem">25</string>
+    <string name="norsk">Norsk</string>
+    <string name="tysk">Tysk</string>
+    <string name="velgSprak">Velg språk</string>
+    <string name="sprak">Språk</string>
+    <string name="antallStykker">Antall stykker</string>
+    <string name="velgAntall">Velg antall</string>
+    <string name="no">no</string>
+    <string name="de">de</string>
+    <string name="Velg">Velg</string>
+
+    <string name="ikkeok">Ikke ok</string>
+
+
+</resources>

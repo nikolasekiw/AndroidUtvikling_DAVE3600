@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ARRAYS BRUKT I STARTSPILL -->
+    <string-array name="regnestykker">
+        <item>5 + 2</item>
+        <item>19 + 3</item>
+        <item>12 + 5</item>
+        <item>15 + 3</item>
+        <item>18 + 2</item>
+        <item>6 + 5</item>
+        <item>5 + 9</item>
+        <item>7 + 8</item>
+        <item>6 + 6</item>
+        <item>8 + 16</item>
+        <item>8 + 5</item>
+        <item>19 + 4</item>
+        <item>9 + 9</item>
+        <item>2 + 16</item>
+        <item>20 + 6</item>
+        <item>3 + 5</item>
+        <item>5 + 1</item>
+        <item>1 + 9</item>
+        <item>1 + 15</item>
+        <item>2 + 10</item>
+        <item>14 + 2</item>
+        <item>5 + 7</item>
+        <item>1 + 11</item>
+        <item>4 + 16</item>
+        <item>5 + 5</item>
+    </string-array>
+
+    <string-array name="regnestykkerSvar">
+        <item>7</item>
+        <item>22</item>
+        <item>17</item>
+        <item>18</item>
+        <item>20</item>
+        <item>11</item>
+        <item>14</item>
+        <item>15</item>
+        <item>12</item>
+        <item>24</item>
+        <item>13</item>
+        <item>23</item>
+        <item>18</item>
+        <item>18</item>
+        <item>26</item>
+        <item>8</item>
+        <item>6</item>
+        <item>10</item>
+        <item>16</item>
+        <item>12</item>
+        <item>16</item>
+        <item>12</item>
+        <item>12</item>
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+
+    <!-- ARRAYS BRUKT I PREFERANSER -->
+    <string-array name="antallStykker">
+        <item>5</item>
+        <item>10</item>
+        <item>25</item>
+    </string-array>
+
+    <string-array name="velgSprak">
+        <item>@string/norsk</item>
+        <item>@string/tysk</item>
+    </string-array>
+    <string-array name="landskode">
+        <item>@string/no</item>
+        <item>@string/de</item>
+    </string-array>
+
+</resources>
